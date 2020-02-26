@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1" user-scalable=no>
 	<title>test</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -9,13 +10,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.7.14/css/bootstrap-datetimepicker.css">
 	<link rel="icon" href="images/icons/mep_logo_orange.png" type="image/png" sizes="16x16">
+	<link rel="stylesheet" href="./style.css">
 </head>
 <body>
-	<div id="demo" style="text-align:center; margin-top:5%;">
-		<h1> Big data or Pokemon</h1>
-		<p> How much do you you know about Big data?</p>
+	<div id="demo" class="container flex-column text-center justify-content-center" style="margin-top:15%;">
+		<h2> BigData in Roche!</h2>
 		<br/>
-		<button class="btn btn-success btn-lg" style="float:right;margin-right:20%" onclick="startGame();">Lets start the game</button>
+		<p> How much do you you know <br/><b>Big data Technologies</b>?</p>
+		<p> How much do you know <br/><b>Roche Products</b>?</p>
+		<br/>
+		<button class="btn btn-success btn-lg" onclick="startGame();">Let's See!</button>
 	</div>
 
 	<script type='text/javascript' src='questions.js'></script>
