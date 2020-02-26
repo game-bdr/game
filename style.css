@@ -1,5 +1,12 @@
+body {
+    max-width: 500px;
+    margin: auto;
+}
 .description {
     text-align: justify;
     padding: 0 8px;
     margin-top: 1.25rem;
+}
+button {
+    min-width: 135px;
 }
