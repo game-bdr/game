@@ -19,7 +19,7 @@ let questions = [
         "name": "Tamiflu",
         "type": 0,
         "text": "Tamiflu is a medicine for the prevention and treatment of influenza.",
-        "img": "tamiflu.jpg"
+        "img": "tamiflu.png"
     },
     {
         "name": "Pegasys",
