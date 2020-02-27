@@ -170,3 +170,4 @@ function showResult() {
         '<p style="font-size: 18px"><b>your score is: ' + parseInt((result / qNum) * 100) + ' from 100</b></p><br/><br/>' +
         '<button class="btn btn-success btn-lg" onclick="location.reload(); ">Play again!</button>'
 }
+ 
